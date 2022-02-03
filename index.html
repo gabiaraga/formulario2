@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formulario</title>
+</head>
+<body>
+  <form action="">
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+      <label for="sobrenome">Sobrenome</label>
+      <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" required>
+      <label for="estado">Estado</label>
+      <select name="estado" id="estado" required>
+        <option value="AC">Acre</option>
+	<option value="AL">Alagoas</option>
+	<option value="AP">Amapá</option>
+	<option value="AM">Amazonas</option>
+	<option value="BA">Bahia</option>
+	<option value="CE">Ceará</option>
+	<option value="DF">Distrito Federal</option>
+	<option value="ES">Espírito Santo</option>
+	<option value="GO">Goiás</option>
+	<option value="MA">Maranhão</option>
+	<option value="MT">Mato Grosso</option>
+	<option value="MS">Mato Grosso do Sul</option>
+	<option value="MG">Minas Gerais</option>
+	<option value="PA">Pará</option>
+	<option value="PB">Paraíba</option>
+	<option value="PR">Paraná</option>
+	<option value="PE">Pernambuco</option>
+	<option value="PI">Piauí</option>
+	<option value="RJ">Rio de Janeiro</option>
+	<option value="RN">Rio Grande do Norte</option>
+	<option value="RS">Rio Grande do Sul</option>
+	<option value="RO">Rondônia</option>
+	<option value="RR">Roraima</option>
+	<option value="SC">Santa Catarina</option>
+	<option value="SP">São Paulo</option>
+	<option value="SE">Sergipe</option>
+	<option value="TO">Tocantins</option>
+      </select>
+
+      <label for="sexo">Sexo</label>
+      <select id="sexo" required>
+        <option value="M">
+          Masculino
+        </option>
+        <option value="F">Feminino</option>
+        <option value="O">Outro</option>
+      </select>
+
+      <label for="idade">Idade</label>
+      <input type="number" id="idade" placeholder="20" min="18" max="90"required>
+    </fieldset>
+
+    <fieldset>
+      <legend>Login</legend>
+      <label for="email"> Email</label>
+      <input type="email" placeholder="mail@mail.com" id="email" required>
+
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" placeholder="Digite uma senha" minlength="6"
+      maxlenght="10" required>
+    </fieldset>
+
+    <button type="submit"> Registrar</button>
+    <button type="reset"> Resetar</button>
+
+
+
+
+
+
+
+
+
+     <!-- <input type="text" list="Lista">
+      <datalist id="Lista">
+        <option value="Chrome">
+          <option value="Firefox">
+            <option value="Internet Explorer">
+      </datalist> -->
+  </form>
+  
+</body>
+</html>
